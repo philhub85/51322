@@ -37,9 +37,9 @@ pipeline {
                 echo 'checking'
               }
         }
-     stage('Release') {
+     stage('Compile') {
             steps {
-                echo 'Releasing'
+                echo 'Compiled'
             }    
         }
     }
