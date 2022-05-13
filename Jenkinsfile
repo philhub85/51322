@@ -35,6 +35,11 @@ pipeline {
      stage('Check') {
             steps {
                 echo 'checking'
+              }
+        }
+     stage('Release') {
+            steps {
+                echo 'Releasing'
             }    
         }
     }
